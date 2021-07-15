@@ -25,6 +25,6 @@ public class Comment {
     private String text;
     private long username;
     @ManyToOne
-    @JoinColumn(name="news_id")
+    @JoinColumn(name = "news_id")
     private News news;
 }
